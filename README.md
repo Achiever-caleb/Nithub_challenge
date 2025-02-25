@@ -59,11 +59,6 @@ weighted avg       0.80      0.80      0.80        71
 - A **FastAPI** service was built to expose the model as a REST API.
 - The API performs **A/B testing**, serving predictions from both models at random.
 
-## How to Run
-1. Clone the repository.
-2. Install dependencies using `pip install -r requirements.txt`.
-3. Run the API server using `uvicorn main:app --reload`.
-4. Send a POST request to `/predict/` with a JSON payload containing a news headline.
 
 ## Future Improvements
 - Implement deep learning models for improved sentiment classification.
