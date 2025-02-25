@@ -7,14 +7,14 @@ By analyzing the sentiments expressed in the news sentences, this system categor
 
 ## Project Workflow
 The project involves the following key steps:
-1. **Data Collection:** Scraping 200 news headlines from **lite.cnn.com** using web scraping techniques.
-2. **Data Annotation:** Labeling each headline with its corresponding sentiment category.
+1. **Data Collection:** Scraping 200+ news paragraphs from **lite.cnn.com** using web scraping techniques.
+2. **Data Annotation:** Labeling each line with its corresponding sentiment category.
 3. **Model Training:** Building and training a sentiment analysis model to accurately classify the sentiments.
 4. **Deployment:** Exposing the trained model as a **REST API** using **FastAPI**, enabling real-time sentiment analysis.
 5. **Optimization and A/B Testing:** Enhancing model inference speed through quantization and conducting **A/B testing** to compare performance against a baseline model.
 
 ## Data Collection
-- News headlines were scraped from **lite.cnn.com**.
+- News paragraphs were scraped from **lite.cnn.com**.
 - The extracted text was stored in CSV files for further preprocessing.
 
 ## Data Cleaning and Preprocessing
